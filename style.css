@@ -1,0 +1,206 @@
+body {
+    align-items: center;
+    background-color: rgb(252, 186, 186);
+    display: flex; 
+    justify-content: center;
+}
+
+.box {
+    align-items: center;
+    background-color: rgba(8, 8, 49, 0.692);
+    border-radius: 100%;
+    display: flex; 
+    height: 430px;
+    justify-content: center;
+    position: relative;
+    width: 430px;
+    border: white 5px solid;
+}
+
+.head {
+    align-items:  center;
+    background-color: rgb(199, 144, 97);
+    border-radius: 45%;
+    display: flex;
+    height: 200px;
+    justify-content: right;
+    position: absolute;
+    width: 150px;
+}
+
+.neck {
+    align-items: center;
+    background-color: rgb(199, 144, 97);
+    border-radius: 0 0 100% 100%;
+    display: flex;
+    height: 50px;
+    justify-content: right;
+    position: absolute;
+    width: 41px;
+    margin-top: 114px;
+}
+
+.eye-right {
+    align-items: center;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    height: 13px;
+    justify-content: right;
+    position: absolute;
+    right: 163px;
+    width: 13px;
+}
+
+.eye-left {
+    align-items: center;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    height: 13px;
+    justify-content: right;
+    left: 163px;
+    position: absolute;
+    width: 13px;
+}
+
+.eyebrow-right {
+    align-items: center;
+    background-color: black;
+    display: flex;
+    height: 4px;
+    justify-content: right;
+    margin-top: -14px;
+    position: absolute;
+    right: 161px;
+    width: 20px;
+    border-radius: 40%;
+}
+
+.eyebrow-left {
+    align-items: center;
+    background-color: black;
+    display: flex;
+    height: 4px;
+    justify-content: right;
+    left: 161px;
+    margin-top: -14px;
+    position: absolute;
+    width: 20px;
+    border-radius: 40%;
+}
+
+.nose {
+    align-items: center;
+    background-color: rgb(184, 102, 52);
+    border-radius: 40%;
+    display: flex;
+    height: 20px;
+    justify-content: right;
+    left: 211px;
+    margin-top: 13px;
+    position: absolute;
+    width: 13px;
+}
+
+.cheek-right {
+    align-items: center;
+    background-color: rgba(212, 111, 93, 0.795);
+    border-radius: 40%;
+    display: flex;
+    height: 10px;
+    justify-content: right;
+    margin-top: 20px;
+    position: absolute;
+    right: 158px;
+    width: 16px;
+}
+
+.cheek-left {
+    align-items: center;
+    background-color: rgba(212, 111, 93, 0.795);
+    border-radius: 40%;
+    display: flex;
+    height: 10px;
+    justify-content: right;
+    left: 158px;
+    margin-top: 20px;
+    position: absolute;
+    width: 16px;
+}
+
+.mouth {
+    z-index: 20;
+    top: 120px;
+    left: 97px;
+    width: 30px;
+    height: 15px;
+    border-radius: 0 0 100px 100px;
+    background: #424B54;
+    overflow: hidden;
+    margin-top: 120px;
+}
+
+.tongue {
+    top: 5px;
+    left: 8px;
+    width: 30px;
+    height: 20px;
+    background: #F6828C;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+}
+
+.hair {
+    align-items: center;
+    background-color: black;
+    border-radius: 100px 100px 0 0;
+    display: flex;
+    height: 307px;
+    justify-content: right;
+    margin-top: 35px;
+    position: absolute;
+    right: 125px;
+    width: 180px;
+    
+}
+
+.hair1 {
+    align-items: center;
+    background-color: black;
+    border-radius: 100% 100% 0 0;
+    display: flex;
+    height: 38px;
+    justify-content: right;
+    margin-top: -62px;
+    position: absolute;
+    right: 102px;
+    width: 137px;
+    transform: rotate(49Deg);
+}
+
+.hair2 {
+    align-items: center;
+    background-color: black;
+    border-radius: 0 0 100% 100%;
+    display: flex;
+    height: 35px;
+    justify-content: right;
+    margin-top: -62px;
+    position: absolute;
+    left: 105px;
+    width: 123px;
+    transform: rotate(130Deg);
+}
+
+.shirt {
+    align-items: center;
+    background-color: white;
+    border-radius: 100% 100% 30% 30%;
+    display: flex;
+    height: 105px;
+    justify-content: right;
+    position: absolute;
+    width: 131px;
+    margin-top: 162px;
+}
